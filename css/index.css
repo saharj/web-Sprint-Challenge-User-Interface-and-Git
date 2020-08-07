@@ -184,7 +184,7 @@ p {
 
 .jumbo-header {
   width: 100%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Content */
@@ -291,4 +291,50 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/* ---------- About page ------------ */
+
+.about-page h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.about-page .about,
+.about-boxes div {
+  border-bottom: 1px dashed black;
+}
+
+.about-page .about {
+  padding: 0 1rem 1rem;
+}
+
+.about-content {
+  padding: 0.5rem 1rem;
+}
+
+.about-content .about-boxes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.about-content .about-boxes div {
+  width: 47%;
+  padding: 3rem 0 1rem;
+}
+
+.learn-more {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.description2 {
+  margin: 2.5rem 0 2rem;
 }
