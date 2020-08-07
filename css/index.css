@@ -166,7 +166,6 @@ p {
 
 .navbar img {
   width: 11rem;
-  /* margin-right: 2rem; */
 }
 
 .navbar nav {
@@ -221,7 +220,6 @@ p {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  /* background: black; */
   margin: 20px 2.5%;
   color: white;
   display: flex;
@@ -296,9 +294,13 @@ footer nav a {
 /* ---------- About page ------------ */
 
 .about-page h3 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   margin-top: 1rem;
+}
+
+.about-h3 {
+  margin-top: 0;
 }
 
 .about-page .about,
@@ -335,6 +337,6 @@ footer nav a {
   margin-top: 1rem;
 }
 
-.description2 {
+.description {
   margin: 2.5rem 0 2rem;
 }
